@@ -1,5 +1,5 @@
 // Importing question sets
-import { easyQuestions, hardQuestions } from "/Question.js";
+import { easyQuestions, hardQuestions } from "Question.js";
 
 // DOM Element References
 const levelStone = document.getElementById("level-stone");
