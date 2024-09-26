@@ -1,0 +1,191 @@
+@font-face {
+    font-family: rocky;
+    src: url(/assests/AliandoRocky.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bglayer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    filter: contrast(150%);
+    overflow: hidden;
+}
+
+.bglayer img {
+    position: absolute;
+}
+
+.bglayer img:nth-child(2) {
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+.bglayer img:nth-child(3) {
+    top: 10%;
+    left: 79%;
+    width: 12%;
+    height: 12%;
+    transform: rotate(10deg);
+}
+
+.bglayer img:nth-child(4) {
+    top: 65%;
+    left: 56%;
+    width: 26%;
+    height: 36%;
+}
+
+.bglayer img:nth-child(5) {
+    top: 74%;
+    left: 0%;
+    width: 19%;
+    height: 36%;
+}
+
+.bglayer img:nth-child(6) {
+    top: 16%;
+    left: 0%;
+    width: 21%;
+    height: 25%;
+}
+
+.bglayer img:nth-child(7) {
+    top: 16%;
+    right: 0%;
+    width: 15%;
+    height: 57%;
+}
+
+.bglayer img:nth-child(8) {
+    bottom: 0%;
+    left: 30%;
+    width: 10%;
+    height: 15%;
+}
+
+.bglayer img:nth-child(9) {
+    top: 49%;
+    left: 8%;
+    width: 12%;
+    height: 19%;
+}
+
+.bglayer img:nth-child(9) {
+    top: 50%;
+    left: 8%;
+    width: 12%;
+    height: 15%;
+}
+
+#Guess-me-container {
+    position: absolute;
+    transform: translate(-50%);
+    color: white;
+}
+
+#Guess-me-container .game-name {
+    position: relative;
+    text-shadow: 0px 0px 5px #fff;
+    font-family: "Montez", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.supporting-heading {
+    position: absolute;
+    text-shadow: 0px 0px 3px #fff;
+    transform: translate(-50%);
+    color: aliceblue;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1.1vw;
+}
+
+#Guess-me-container .supporting-heading {
+    top: 70%;
+    left: 40%;
+}
+
+#Guess-me-container {
+    top: 11%;
+    left: 50%;
+    font-size: 4vw;
+}
+
+#curie-logo {
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
+    width: 8vw;
+    height: 8vw;
+    fill: #FFFFFF;
+}
+
+#refresh-svg {
+    position: absolute;
+    top: 91%;
+    left: 33.5%;
+    height: 2vw; 
+    fill: aliceblue;
+    cursor: pointer;
+    mix-blend-mode: hard-light;
+    pointer-events: none;
+}
+
+#level {
+    position: absolute;
+    top: 26%;
+    left: 5%;
+    transform: rotate(-16deg);
+    color: white;
+    opacity: 0;
+    mix-blend-mode: hard-light;
+    pointer-events: none;
+}
+
+#level h3 {
+    position: absolute;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+} 
+
+#hard {
+    opacity: 0;
+}
+
+.question-cover {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5vh 5vw;
+    border-radius: 2vw;
+    color: antiquewhite;
+    font-family: "Hind", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2em;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.9);
+    background: rgba(221, 221, 221, 0.144);
+    box-shadow: 0 8px 32px 0 rgba(187, 192, 255, 0.247);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.486);
+    transition: width 0.2s ease, height 0.2s ease;
+}
